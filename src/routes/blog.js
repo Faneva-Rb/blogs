@@ -1,7 +1,7 @@
 
 
 import { Router } from "express";
-import { create } from "../controllers/blogController";
+import { create, index } from "../controllers/blogController.js";
 
 
 const router = Router();
