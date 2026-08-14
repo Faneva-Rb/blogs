@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 export const connectDB = async () => {
     try {
-        await mongoose.connect(`${process.env.MONGODB_URI}/sample_fix`);
+        await mongoose.connect(`${process.env.MONGODB_URI}/mern_project`);
         console.log("MongoDB connecté ✅");
     } catch (error) {
         console.error("Erreur de connexion à MongoDB ❌", error);
